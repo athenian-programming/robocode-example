@@ -25,14 +25,10 @@ repositories {
     flatDir {
         dirs 'libs'
     }
-
 }
 
 
 dependencies {
-    //compile name: 'bcel-6.2'
-    //compile name: 'codesize-1.2'
-    //compile name: 'picocontainer-2.14.2'
     compile name: 'robocode'
     compile name: 'roborumble'
     compile name: 'robocode.battle-1.9.3.4'
