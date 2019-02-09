@@ -2,8 +2,20 @@
 
 ## Links
 
-* [Robocode home](https://robocode.sourceforge.io)
-* Robocode [javadocs](https://robocode.sourceforge.io/docs/robocode/)
+* [Home](https://robocode.sourceforge.io)
+* [wiki](http://robowiki.net/wiki/Main_Page)
+* [Tutorials](http://robowiki.net/wiki/Main_Page)
+* [Javadocs](https://robocode.sourceforge.io/docs/robocode/)
+* [Rock 'em, sock 'em Robocode!](https://www.ibm.com/developerworks/library/j-robocode/index.html)
+
+## Videos
+* [Programming Games: Robocode](https://www.youtube.com/watch?v=oTjjkXebCAY)
+* [Evolution of Robocode Strategy Tech Talk](https://www.youtube.com/watch?v=-aEHOm5toRc)
+
+## Robots
+
+* An example robot is here: *src/main/java/org/athenian/SimpleRobot.java*
+* The sample robots included in the Robocode distro are here: *src/main/java/sample*
 
 ## Setup
 1) Install Robocode the usual way: 
@@ -45,10 +57,6 @@ the cloned *robocode-example* repo and click **Finish**.
 
 ![Preferences](docs/preferences.jpg)
 
-## Robots
-
-* An example robot is here: *src/main/java/org/athenian/SimpleRobot.java*
-* The sample robots included in the Robocode distro are here: *src/main/java/sample*
 
 
 
