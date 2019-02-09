@@ -10,7 +10,7 @@ public class SimpleRobot
     extends Robot {
 
   /**
-   * MyFirstRobot's run method - Seesaw
+   * SimpleRobot's run method - Seesaw
    */
   public void run() {
 
