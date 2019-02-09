@@ -2,7 +2,7 @@
 
 ## Setup
 1) Install [Robocode](https://robocode.sourceforge.io) the usual way: 
-download *robocode-1.9.3.4-setup.jar* from [here](https://sourceforge.net/projects/robocode/files/).
+download *robocode-1.9.3.4-setup.jar* from [here](https://sourceforge.net/projects/robocode/files/)
 and run the setup jar to install Robocode into your home directory with:
 
 ```bash
@@ -37,5 +37,9 @@ and click **Finish**.
 
 ![Preferences](docs/preferences.jpg)
 
+## Robots
+
+* An example robot is here: *src/main/java/org/athenian/SimpleRobot.java*
+* The sample robots included in the Robocode distro are here: *src/main/java/sample*
 
 
