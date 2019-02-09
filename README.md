@@ -1,4 +1,4 @@
-# Robocode Example
+# Robocode with IntelliJ
 
 ## Setup
 1) Download the *robocode-1.9.3.4-setup.jar* from [here](https://sourceforge.net/projects/robocode/files/).
@@ -36,4 +36,6 @@ add **robocode-example/out/production/classes** and **robocode-example/out/produ
 and click *Finish*.
 
 ![Preferences](docs/preferences.jpg)
+
+
 
