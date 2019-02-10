@@ -40,7 +40,6 @@ Check Use auto-import
 Group modules: *using explicit module groups
 Uncheck Create separate module per source set
 Gradle JVM: 1.8
-
 ```
 
 ![Open Intellij Project](docs/open.jpg)
@@ -50,7 +49,6 @@ Gradle JVM: 1.8
 ```
 Project SDK: 1.8
 Project language level: 8 - Lambdas, type annotations etc.
-
 ```
 
 ![Project Structure](docs/project-structure.jpg)
