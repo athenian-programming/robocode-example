@@ -34,10 +34,29 @@ git clone https://github.com/athenian-programming/robocode-example.git
 
 3) Open the repo with IntelliJ
 
+```
+Check Use auto-import
+Group modules: *using explicit module groups
+Uncheck Create separate module per source set
+Gradle JVM: 1.8
 
-4) Select **Build** -> **Build Project** to compile the project's java code.
+```
 
-5) Click on **Run** -> **Edit Configurations...**, 
+![Open Intellij Project](docs/open.jpg)
+
+4) Click on **File** -> **Project Structure...** to open the project's structure.
+
+```
+Project SDK: 1.8
+Project language level: 8 - Lambdas, type annotations etc.
+
+```
+
+![Project Structure](docs/project-structure.jpg)
+
+5) Select **Build** -> **Build Project** to compile the project's java code.
+
+6) Click on **Run** -> **Edit Configurations...**, 
 then click on **+** and select **Application** from the list
 and create a configuration with these values:
 
@@ -52,9 +71,9 @@ JRE: 1.8
 
 ![Robocode Configuration](docs/configuration.jpg)
 
-6) Run the newly created configuration to start Robocode.
+7) Run the newly created configuration to start Robocode.
 
-7) Once started, select **Options** -> **Preferences** -> **Development Options** on the Robocode app,
+8) Once started, select **Options** -> **Preferences** -> **Development Options** on the Robocode app,
 and add *robocode-example/out/production/classes* and *robocode-example/out/production/resources* from 
 the cloned *robocode-example* repo and click **Finish**.
 
