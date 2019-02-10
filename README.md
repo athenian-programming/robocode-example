@@ -19,8 +19,6 @@
 
 ## Setup
 
-<details><summary>Details...</summary>
-
 1) Install Robocode the usual way: 
 download *robocode-1.9.3.4-setup.jar* from [here](https://sourceforge.net/projects/robocode/files/)
 and run the setup jar to install Robocode into your home directory with:
@@ -81,8 +79,6 @@ and add *robocode-example/out/production/classes* and *robocode-example/out/prod
 the cloned *robocode-example* repo and click **Finish**.
 
 ![Preferences](docs/preferences.jpg)
-
-</details>
 
 
 
