@@ -9,6 +9,7 @@ group 'org.athenian'
 version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
+targetCompatibility = '1.8'
 
 sourceSets {
     main {
@@ -19,12 +20,11 @@ sourceSets {
 }
 
 repositories {
-    mavenCentral()
-    mavenLocal()
-
     flatDir {
         dirs 'libs'
     }
+    mavenLocal()
+    mavenCentral()
 }
 
 

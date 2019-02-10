@@ -32,9 +32,12 @@ java -jar robocode-1.9.3.4-setup.jar
 git clone https://github.com/athenian-programming/robocode-example.git
 ```
 
-3) Select **Build** -> **Build Project** to compile the project's java code.
+3) Open the repo with IntelliJ
 
-4) Open the repo with IntelliJ, click on **Run** -> **Edit Configurations...**, 
+
+4) Select **Build** -> **Build Project** to compile the project's java code.
+
+5) Click on **Run** -> **Edit Configurations...**, 
 then click on **+** and select **Application** from the list
 and create a configuration with these values:
 
@@ -49,9 +52,9 @@ JRE: 1.8
 
 ![Robocode Configuration](docs/configuration.jpg)
 
-5) Run the newly created configuration to start Robocode.
+6) Run the newly created configuration to start Robocode.
 
-6) Once started, select **Options** -> **Preferences** -> **Development Options** on the Robocode app,
+7) Once started, select **Options** -> **Preferences** -> **Development Options** on the Robocode app,
 and add *robocode-example/out/production/classes* and *robocode-example/out/production/resources* from 
 the cloned *robocode-example* repo and click **Finish**.
 
