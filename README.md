@@ -14,8 +14,8 @@
 
 ## Robots
 
-* An example robot is [here](blob/master/src/main/java/org/athenian/SimpleRobot.java)
-* The sample robots included in the Robocode distro are [here](blob/master/src/main/java/sample)
+* An example robot is [here](src/main/java/org/athenian/SimpleRobot.java).
+* The sample robots included in the Robocode distro are [here](src/main/java/sample).
 
 ## Setup
 1) Install Robocode the usual way: 
