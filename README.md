@@ -78,6 +78,8 @@ the cloned *robocode-example* repo and click **Finish**.
 
 ![Preferences](docs/preferences.jpg)
 
+9) Start a Robocode battle by going to Robocode and selecting **Battle** -> **New**. 
+Add the *org.athenian.SimpleRobot*, *sample.Crazy*, and *sample.Fire* robots and then 
+click **Start Battle**.
 
-
-
+![New Battle](docs/new-battle.jpg)
