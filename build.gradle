@@ -44,11 +44,19 @@ dependencies {
     compile name: 'robocode.ui.editor-1.9.3.5'
     compile name: 'robocode.ui-1.9.3.5'
 
+    //compile group: 'net.sf.robocode', name: 'robocode', version: '1.9.3.5'
+    //compile group: 'net.sf.robocode', name: 'roborumble', version: '1.9.3.5'
+    //compile group: 'net.sf.robocode', name: 'robocode.battle', version: '1.9.3.5'
+    //compile group: 'net.sf.robocode', name: 'robocode.core', version: '1.9.3.5'
+    //compile group: 'net.sf.robocode', name: 'robocode.host', version: '1.9.3.5'
+    //compile group: 'net.sf.robocode', name: 'robocode.repository', version: '1.9.3.5'
+    //compile group: 'net.sf.robocode', name: 'robocode.sound', version: '1.9.3.5'
+    //compile group: 'net.sf.robocode', name: 'robocode.ui.editor', version: '1.9.3.5'
+    //compile group: 'net.sf.robocode', name: 'robocode.ui', version: '1.9.3.5'
+
     compile group: 'org.apache.bcel', name: 'bcel', version: '6.2'
     compile group: 'net.sf.robocode', name: 'codesize', version: '1.2'
     compile group: 'org.picocontainer', name: 'picocontainer', version: '2.14.2'
-
-    //compile group: 'net.sf.robocode', name: 'robocode.api', version: '1.9.3.5'
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 

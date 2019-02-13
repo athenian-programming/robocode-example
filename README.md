@@ -33,7 +33,9 @@ java -jar robocode-1.9.3.4-setup.jar
 git clone https://github.com/athenian-programming/robocode-example.git
 ```
 
-3) Open the repo with IntelliJ
+3) Make sure you have Java 1.8 installed.
+
+4) Open the repo with IntelliJ
 
 ```
 Check Use auto-import
@@ -44,7 +46,7 @@ Gradle JVM: 1.8
 
 ![Open Intellij Project](docs/open.jpg)
 
-4) Click on **File** -> **Project Structure...** to open the project's structure.
+5) Click on **File** -> **Project Structure...** to open the project's structure.
 
 ```
 Project SDK: 1.8
@@ -53,9 +55,9 @@ Project language level: 8 - Lambdas, type annotations etc.
 
 ![Project Structure](docs/project-structure.jpg)
 
-5) Select **Build** -> **Build Project** to compile the project's java code.
+6) Select **Build** -> **Build Project** to compile the project's java code.
 
-6) Click on **Run** -> **Edit Configurations...**, 
+7) Click on **Run** -> **Edit Configurations...**, 
 then click on **+** and select **Application** from the list
 and create a configuration with these values:
 
@@ -70,15 +72,15 @@ JRE: 1.8
 
 ![Robocode Configuration](docs/configuration.jpg)
 
-7) Run the newly created configuration to start Robocode.
+8) Run the newly created configuration to start Robocode.
 
-8) Once started, select **Options** -> **Preferences** -> **Development Options** on the Robocode app,
+9) Once started, select **Options** -> **Preferences** -> **Development Options** on the Robocode app,
 and add *robocode-example/out/production/classes* and *robocode-example/out/production/resources* from 
 the cloned *robocode-example* repo and click **Finish**.
 
 ![Preferences](docs/preferences.jpg)
 
-9) Start a Robocode battle by going to Robocode and selecting **Battle** -> **New**. 
+10) Start a Robocode battle by going to Robocode and selecting **Battle** -> **New**. 
 Add the *org.athenian.SimpleRobot*, *sample.Crazy*, and *sample.Fire* robots and then 
 click **Start Battle**.
 

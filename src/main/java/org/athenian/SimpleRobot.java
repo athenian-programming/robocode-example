@@ -16,7 +16,6 @@ public class SimpleRobot
 
     setColors(Color.red, Color.blue, Color.green); // body,gun,radar
 
-
     while (true) {
       ahead(100);
       turnGunRight(360);
