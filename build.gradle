@@ -36,19 +36,19 @@ repositories {
 dependencies {
     compile name: 'robocode'
     compile name: 'roborumble'
-    compile name: 'robocode.battle-1.9.3.4'
-    compile name: 'robocode.core-1.9.3.4'
-    compile name: 'robocode.host-1.9.3.4'
-    compile name: 'robocode.repository-1.9.3.4'
-    compile name: 'robocode.sound-1.9.3.4'
-    compile name: 'robocode.ui.editor-1.9.3.4'
-    compile name: 'robocode.ui-1.9.3.4'
+    compile name: 'robocode.battle-1.9.3.5'
+    compile name: 'robocode.core-1.9.3.5'
+    compile name: 'robocode.host-1.9.3.5'
+    compile name: 'robocode.repository-1.9.3.5'
+    compile name: 'robocode.sound-1.9.3.5'
+    compile name: 'robocode.ui.editor-1.9.3.5'
+    compile name: 'robocode.ui-1.9.3.5'
 
     compile group: 'org.apache.bcel', name: 'bcel', version: '6.2'
     compile group: 'net.sf.robocode', name: 'codesize', version: '1.2'
     compile group: 'org.picocontainer', name: 'picocontainer', version: '2.14.2'
 
-    //compile group: 'net.sf.robocode', name: 'robocode.api', version: '1.9.3.4'
+    //compile group: 'net.sf.robocode', name: 'robocode.api', version: '1.9.3.5'
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 
